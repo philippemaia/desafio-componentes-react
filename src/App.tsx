@@ -1,9 +1,9 @@
+import Car from "./routes/Car";
+
 function App() {
 
   return (
-    <>
-      <h1>Teste</h1>
-    </>
+    <Car />
   )
 }
 
