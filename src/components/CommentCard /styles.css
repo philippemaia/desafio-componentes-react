@@ -1,3 +1,7 @@
-.h2-commentcard{
-    color: green;
+.card-comment {
+  padding: 25px 20px;
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-font-primary);
+  border-radius: 12px;
+  margin: 20px 0;
 }

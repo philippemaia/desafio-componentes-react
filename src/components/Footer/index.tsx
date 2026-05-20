@@ -2,6 +2,11 @@ import './styles.css';
 
 export default function Footer(){
     return(
-        <h2 className="h2-footer">Rodapé</h2>
+        <footer>
+            <div className="container footer-content">
+                <a href="#">@dscarrostop</a>
+                <address>Rua da Pipoca, 150</address>
+            </div>
+        </footer>
     );
 }

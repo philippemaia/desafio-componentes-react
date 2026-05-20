@@ -9,8 +9,23 @@ export default function Car(){
     return(
         <>
         <Header />
-        <CarCard />
-        <CommentCard />
+        <section id="cars">
+        <div className="container">
+            <h2>Venha nos visitar</h2>
+            <CarCard />
+            <CarCard />
+        </div>
+        </section>
+        <section id="comments">
+            <div className="container">
+            <h2>O que estão dizendo</h2>
+            <CommentCard />
+            <CommentCard />
+            <CommentCard />
+            <CommentCard />
+            <CommentCard />
+            </div>
+        </section>
         <Footer />
         </>
     );

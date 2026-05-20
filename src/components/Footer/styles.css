@@ -1,3 +1,21 @@
-.h2-footer{
-    color: blue;
+footer {
+  padding: 0 15px;
+  height: 120px;
+  background-color: var(--color-bg-primary);
+  color: var(--color-font-tertiary);
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content a {
+  font-size: 16px;
+}
+
+.footer-content address {
+  font-size: 16px;
 }
