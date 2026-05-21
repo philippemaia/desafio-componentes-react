@@ -8,9 +8,10 @@ footer {
 }
 
 .footer-content {
-  display: flex;
-  justify-content: space-between;
-}
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}  
 
 .footer-content a {
   font-size: 16px;
@@ -18,4 +19,12 @@ footer {
 
 .footer-content address {
   font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  .footer-content {
+    display: flex;    
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
